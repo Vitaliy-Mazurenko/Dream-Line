@@ -1,4 +1,20 @@
-﻿* {
+﻿@font-face {
+  font-family: 'Segoe UI';
+  font-weight: 400;
+  src: url("../fonts/Segoe UI.ttf");
+}
+
+@font-face {
+  font-family: 'Alte Haas Grotesk';
+  src: url("../fonts/altehaasgroteskbold.ttf");
+}
+
+@font-face {
+  font-family: 'Univers LT Std 55';
+  src: url("../fonts/UniversLTStd.ttf");
+}
+
+* {
   outline: none;
 }
 
