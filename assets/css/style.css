@@ -1,0 +1,191 @@
+﻿* {
+  outline: none;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;                                               
+}
+
+header{
+  background: url("../imges/img_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-top{
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.902;
+  width: 100%;
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255);
+}
+.btn-login{
+  border-radius: 3px;
+  background-color: rgb(222, 109, 110);
+  top: 36px;
+  width: 87px;
+  height: 27px;
+  z-index: 1;
+}
+
+.btn-login span{
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  line-height: 13px;
+}
+
+.title{
+  padding-top: 570px;
+  font-size: 69px;
+  text-shadow: 0px 0px 13px rgba(0, 0, 0, 0.22);
+  font-family: 'Alte Haas Grotesk', sans-serif; 
+  text-transform: uppercase;
+}
+
+.sub-title{
+  font-size: 25px;
+  font-family: 'Univers LT Std 55', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  padding-bottom: 75px;
+}
+
+.section2-title{
+  font-size: 35px;
+  font-family: 'Univers LT Std 55', sans-serif;
+  color: rgb(64, 64, 64);
+  line-height: 1.2;
+}
+
+.section2_subtitle{
+  font-size: 17px;
+  font-family: 'Univers LT Std 55', sans-serif;
+  color: rgb(99, 99, 99);
+  line-height: 1.2;
+  max-width: 75%;
+  margin: 0 auto;
+  word-break: break-all;
+}
+
+.elipse1, .elipse2, .elipse3, .elipse4{
+  border-radius: 50%;
+  width: 179px;
+  height: 179px;
+}
+
+.elipse1{
+  background-color: rgb(78, 185, 244);
+}
+
+.elipse2{
+  background-color: rgb(111, 193, 37);
+}
+
+.elipse3{
+  background-color: rgb(255, 86, 73);
+}
+
+.elipse4{
+  background-color: rgb(228, 143, 35);
+}
+
+.elipse1 img, .elipse3 img{
+padding-top: 35px;
+}
+
+.elipse2 img{
+  padding-top: 50px;
+}
+
+.elipse4 img{
+  padding-top: 43px;
+}
+
+.elipse-text{
+  font-size: 17px;
+  font-family: 'Univers LT Std 55', sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  position: relative;
+  z-index: 49;
+}
+
+.elipse3 span{
+  font-size: 12px;
+  position: absolute;
+  width: 157px;
+  height: 83px;
+  padding-top: 37px;
+  padding-left: 23px;
+}
+
+.beer{
+  color: rgba(255, 255, 255, 0.259);
+}
+
+.hr-bottom{
+  width: 100%;
+  height: 1px;
+  color: rgb(233, 233, 233);
+}
+
+
+.simply-wrap img{
+  width: 199px;
+  height: 132px;
+  bottom: 0px;
+}
+
+.simply h3 {
+  font-size: 27px;
+  font-family: 'Univers LT Std 55', sans-serif; 
+  color: rgb(64, 64, 64);
+  line-height: 1.2;
+}
+
+.simply-text{
+  font-size: 15px;
+  font-family: 'Univers LT Std 55', sans-serif; 
+  color: rgb(139, 139, 139);
+  line-height: 1.467;
+}
+
+.footer{
+  background: url('../imges/footer.png') center/cover no-repeat;
+  color: rgb(174, 174, 174);
+  font-family: 'Univers LT Std 55', sans-serif;
+}
+
+.sub-menu{
+  font-size: 21px;
+}
+.icon-wrap{
+  background-color: rgb(105, 107, 106);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 9px;
+  border: 1px; 
+}
+
+.icon-wrap:hover{
+border: 1px solid rgb(82, 82, 82);
+}
+
+.copyright{
+  font-size: 15px;
+}
+
+@media (max-width: 576px) {
+.title {
+  padding-top: 470px;
+  font-size: 50px;
+}
+}
